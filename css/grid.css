@@ -1,0 +1,23 @@
+.grid {
+    width: 100%;
+
+    position: relative;
+}
+
+.grid__item {
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.grid__item--one-half {
+    width: 50%;
+}
+
+.grid:after {
+    height: 0;
+    display: block;
+    content: "";
+    visibility: hidden;
+    clear: both;
+}

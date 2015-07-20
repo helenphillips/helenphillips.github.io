@@ -1,0 +1,123 @@
+/*----------------------------------------------------------------------------------------------------------------*\
+    COLOURS - I like to add the colours here to refer back to, to keep them consistent throughout the site
+    
+    BLACK: Text
+    #333
+    
+    BLUE: Links
+    #2290BF
+    
+\*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*\
+    DEFAULT TEXT
+\*----------------------------------------------------------------------------------------------------------------*/
+body {  
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+h1, .h1 {
+    font-size: 2em;
+}
+
+h2, .h2 {
+    font-size: 1.5em;
+}
+
+h3, .h3 {
+    font-size: 1.25em;
+}
+
+h4, .h4 {
+    font-size: 1.125em;
+}
+
+h5, .h5,
+h6, .h6 {
+    font-size: 1em;
+}
+
+a {
+    color: #2290BF;
+    text-decoration: none;
+    
+    -webkit-transition: all 0.2s ease-in;  
+    -moz-transition: all 0.2s ease-in;  
+    -ms-transition: all 0.2s ease-in;  
+    -o-transition: all 0.2s ease-in;  
+    transition: all 0.2s ease-in; 
+}
+
+a:hover {
+    color: #49B1DE;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    BUTTONS
+\*----------------------------------------------------------------------------------------------------------------*/
+.button {
+    padding: 5px 10px;
+    border: 1px solid #077BA8;
+    display: inline-block;
+
+    background: #2290BF;
+
+    font-size: 1em;
+    line-height: 1em;
+    color: #fff;
+
+    -webkit-transition: all 0.2s ease-in;  
+    -moz-transition: all 0.2s ease-in;  
+    -ms-transition: all 0.2s ease-in;  
+    -o-transition: all 0.2s ease-in;  
+    transition: all 0.2s ease-in;
+}
+
+.button:hover {
+    background: #49B1DE;
+    
+    color: #fff;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    PAGE CONTAINERS
+\*----------------------------------------------------------------------------------------------------------------*/
+.content {
+    max-width: 980px;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    NAV
+\*----------------------------------------------------------------------------------------------------------------*/
+.nav {
+	padding-top: 2em;
+}
+
+.nav ul {
+    list-style: none;
+    
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+}
+
