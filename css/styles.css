@@ -113,7 +113,20 @@ a:hover {
 \*----------------------------------------------------------------------------------------------------------------*/
 .content {
     max-width: 980px;
+    margin: 0 auto;
 }
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    BANNERS
+\*----------------------------------------------------------------------------------------------------------------*/
+.banner {
+    margin-bottom: 50px;
+}
+
 
 
 
@@ -146,5 +159,48 @@ a:hover {
 
 .nav a:hover {
     background-color: #815E85;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*\
+    ITEM BOX
+\*----------------------------------------------------------------------------------------------------------------*/
+.item-box {
+    margin-bottom: 50px;
+}
+
+.item-box--small {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-box__heading {
+    text-align: center;
+
+    position: relative;
+}
+
+.item-box__heading span {
+    padding: 0 20px;
+    display: inline-block;
+
+    background-color: #FFF9F9;
+
+    position: relative;
+    z-index: 1;
+}
+
+.item-box__heading:after {
+    content: "";
+
+    width: 100%;
+    border-top: 1px solid #817A68;
+
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
 

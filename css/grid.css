@@ -1,5 +1,6 @@
 .grid {
     width: 100%;
+    margin-left: -40px;
 
     position: relative;
 }
@@ -7,6 +8,7 @@
 .grid__item {
     width: 100%;
     min-height: 1px;
+    padding-left: 40px;
     float: left;
 }
 
@@ -20,4 +22,12 @@
     content: "";
     visibility: hidden;
     clear: both;
+}
+
+.grid--full {
+    margin-left: 0;
+}
+
+.grid--full .grid__item {
+    padding-left: 0;
 }
