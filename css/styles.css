@@ -58,6 +58,10 @@ h6, .h6 {
     font-size: 1em;
 }
 
+p{
+    margin-bottom: 20px;
+}
+
 a {
     color: #2290BF;
     text-decoration: none;
